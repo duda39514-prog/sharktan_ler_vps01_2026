@@ -10,4 +10,4 @@ O objetivo do nosso projeto é aumentar os clubes e eventos dentro da nossa esco
 |Yasmin Drudi
 |Isabelle Barichello
 
-![Slide](ProjetoCérebroemação.pdf)
+![Slide](./Apresentacao/pagina-01.jpg)

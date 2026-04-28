@@ -5,9 +5,19 @@ O objetivo do nosso projeto é aumentar os clubes e eventos dentro da nossa esco
 
 # Nome dos integrantes
 |Ana Klara Godoy
+
 |Maria Eduarda Betim Gomes de Moraes
+
 |Mirella Camilloti
+
 |Yasmin Drudi
+
 |Isabelle Barichello
 
 ![Slide](./Apresentacao/pagina-01.jpg)
+![Slide](./Apresentacao/pagina-02.jpg)
+![Slide](./Apresentacao/pagina-03.jpg)
+![Slide](./Apresentacao/pagina-04.jpg)
+![Slide](./Apresentacao/pagina-05.jpg)
+![Slide](./Apresentacao/pagina-06.jpg)
+![Slide](./Apresentacao/pagina-07.jpg)

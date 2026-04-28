@@ -14,7 +14,7 @@ O objetivo do nosso projeto é aumentar os clubes e eventos dentro da nossa esco
 
 |Isabelle Barichello
 
-![Slide](./ApresentacaoApresentacaopagina-01.jpg)
+![Slide](./Apresentacao/Apresentacaopagina-01.jpg)
 ![Slide](./pagina-02.jpg)
 ![Slide](./Apresentacao/pagina-03.jpg)
 ![Slide](./Apresentacao/pagina-04.jpg)

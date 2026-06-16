@@ -29,10 +29,15 @@ Esses dados demonstram que o interesse por mais atividades extracurriculares é 
 
 2ª Pergunta: Ideias de clubes sugeridas pelas salas
 Durante a pesquisa, os alunos também sugeriram diversas ideias de clubes e atividades que gostariam de ver na escola. Entre as mais citadas, destacam-se:
+
 •	Clube de esportes (futebol, basquete, vôlei, corrida e outras modalidades) 
+
 •	Clube de artes (pintura, desenho, música e teatro) 
+
 •	Feira de ciências e projetos experimentais 
+
 •	Clube de leitura e debates 
+
 Essas sugestões mostram o interesse dos estudantes por atividades diversificadas que vão além da sala de aula.
 
 

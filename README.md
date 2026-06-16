@@ -7,14 +7,23 @@ Nosso projeto tem como objetivo aumentar a quantidade de clubes e eventos na esc
 
 1ª Pergunta: Quem sente falta de mais clubes e eventos na escola?
 Os resultados da pesquisa de campo mostraram que há uma grande demanda dos alunos por mais clubes e eventos escolares. Em todas as turmas entrevistadas, a maioria dos estudantes afirmou sentir falta dessas atividades:
+
 •	9ºA: 25 alunos 
-•	9ºB: 14 alunos 
-•	1ºA: 24 alunos 
-•	1ºB: 19 alunos 
-•	2ºA: 19 alunos 
-•	2ºB: 22 alunos 
-•	3ºA: 28 alunos 
+
+•	9ºB: 14 alunos
+
+•	1ºA: 24 alunos
+
+•	1ºB: 19 alunos
+
+•	2ºA: 19 alunos
+
+•	2ºB: 22 alunos
+
+•	3ºA: 28 alunos
+
 •	3ºB: 20 alunos 
+
 Esses dados demonstram que o interesse por mais atividades extracurriculares é significativo em diferentes séries, reforçando a necessidade de ampliar os espaços de participação dentro da escola.
 
 

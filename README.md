@@ -40,11 +40,11 @@ Durante a pesquisa, os alunos também sugeriram diversas ideias de clubes e ativ
 
 Essas sugestões mostram o interesse dos estudantes por atividades diversificadas que vão além da sala de aula.
 
+# Importância
 
-![Slide](./ProjetoCérebroemação_page-0001.jpg)
-![Slide](./ProjetoCérebroemação_page-0002.jpg)
-![Slide](./ProjetoCérebroemação_page-0003.jpg)
-![Slide](./ProjetoCérebroemação_page-0004.jpg)
-![Slide](./ProjetoCérebroemação_page-0005.jpg)
-![Slide](./ProjetoCérebroemação_page-0007.jpg)
-![Slide](./ProjetoCérebroemação_page-0008.jpg)
+Atividades extracurriculares transformam o estudante de um espectador passivo em um protagonista da sua própria formação, unindo teoria, prática e convivência social.
+Liderança: Assumir responsabilidades em projetos ou cargos de diretoria.
+Trabalho em Equipe: Aprender a lidar com opiniões divergentes e colaborar por um objetivo comum.
+Gestão de Tempo: Conciliar os estudos com as responsabilidades extras.
+Muitas vezes, é em um clube de robótica, teatro ou jornalismo que o estudante descobre sua verdadeira vocação.
+

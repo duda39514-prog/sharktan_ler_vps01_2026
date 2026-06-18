@@ -49,3 +49,5 @@ Atividades extracurriculares transformam o estudante de um espectador passivo em
 * Gestão de Tempo: Conciliar os estudos com as responsabilidades extras.
 Muitas vezes, é em um clube de robótica, teatro ou jornalismo que o estudante descobre sua verdadeira vocação.
 
+# Link do Protótipo
+[Protótipo](https://canva.link/ixee6juxcn0uq9w)

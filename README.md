@@ -55,9 +55,12 @@ Muitas vezes, é em um clube de robótica, teatro ou jornalismo que o estudante 
 # Atualizações do Projeto:
 
 ## Site: 
-### Quem fez: Maria Eduarda Betim Gomes de Moraes
 
-* O que fez: Site em Html e css
+### Desenvolvido por: Maria Eduarda Betim Gomes de Moraes
+
+### Tecnologias: HTML5 • CSS3
+
+### Projeto: Site Cérebro em Ação
 
 * Código atual do site:
 # Html

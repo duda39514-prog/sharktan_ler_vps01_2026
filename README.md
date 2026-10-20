@@ -62,7 +62,10 @@ Muitas vezes, é em um clube de robótica, teatro ou jornalismo que o estudante 
 
 - Projetos: Site Cérebro em Ação
   
-### Código: 
+### Código(não finalizado): 
 * [Html](./html)
   
 * [css](./css)
+
+## Alguns prints do site em andamento:
+[imagem](./imagem.png)

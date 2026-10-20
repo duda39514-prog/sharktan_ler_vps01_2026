@@ -54,13 +54,13 @@ Muitas vezes, é em um clube de robótica, teatro ou jornalismo que o estudante 
 
 # Atualizações do Projeto:
 
-## Site: 
+## Front-end: 
 
-### Desenvolvido por: Maria Eduarda Betim Gomes de Moraes
+- Desenvolvido por: Maria Eduarda Betim Gomes de Moraes
 
-### Tecnologias: HTML5 • CSS3
+- Tecnologias: HTML5 • CSS3
 
-### Projeto: Site Cérebro em Ação
+- Projeto: Site Cérebro em Ação
 
 * Código atual do site:
 # Html

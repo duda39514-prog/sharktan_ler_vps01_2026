@@ -71,3 +71,13 @@ Muitas vezes, é em um clube de robótica, teatro ou jornalismo que o estudante 
 
 ![imagem](./imagem.png)
 (A imagem da moça foi feita de IA!!)
+
+## O que foi feito:
+
+* Design e Interface: Criação de um layout com estilo único e bonito, além de usar paleta de cores que nós escolhemos e utilizamos no site no canvas.
+
+* Estruturação: Organização de todas as secções, menus de navegação e cabeçalho.
+
+* Estilização CSS: Ajuste detalhado de posicionamentos, transições, botões e alinhamentos responsivos.
+
+* Aviso!!: Eu e meu grupo decidimos mudar o estilo do site totalmente.

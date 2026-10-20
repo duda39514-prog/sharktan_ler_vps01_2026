@@ -70,3 +70,4 @@ Muitas vezes, é em um clube de robótica, teatro ou jornalismo que o estudante 
 ## Alguns prints do site em andamento:
 
 ![imagem](./imagem.png)
+(A imagem da moça foi feita de IA!!)

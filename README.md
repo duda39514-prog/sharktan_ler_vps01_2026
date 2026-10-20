@@ -100,3 +100,14 @@ ________________________________________________________________________________
   * [dml](./dml)
 
   * [ddl](./ddl)
+
+## O que foi feito:
+
+* ### Modelagem de Dados:
+  Criação da estrutura e tabelas para armazenamento de informações.
+
+* ### Integração & Consultas:
+  Organização de dados para acesso rápido e dinâmico pela plataforma.
+
+* ### Gestão de Informações:
+  Estruturação para cadastro e controle de membros e conteúdos.

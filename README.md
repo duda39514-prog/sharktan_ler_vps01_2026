@@ -62,7 +62,7 @@ ________________________________________________________________________________
 
 - Tecnologia: HTML5 • CSS3
 
-- Projetos: Site Cérebro em Ação
+- Projetos: Cérebro em Ação
   
 ### Código(não finalizado): 
 * [Html](./html)
@@ -86,3 +86,11 @@ ________________________________________________________________________________
    Ajuste detalhado de posicionamentos, transições, botões e alinhamentos responsivos.
 
 ### Aviso!!: Eu e meu grupo decidimos mudar o estilo de dentro do site totalmente, só usamos o do canvas de base.
+
+## Banco de Dados:  
+
+- Desenvolvido por: Yasmin Drudi
+
+- Tecnologia: Banco de Dados
+
+- Projetos: Cérebro em Ação

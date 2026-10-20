@@ -60,7 +60,8 @@ Muitas vezes, é em um clube de robótica, teatro ou jornalismo que o estudante 
 
 - Tecnologias: HTML5 • CSS3
 
-- Projeto: Site Cérebro em Ação
+- Projetos: Site Cérebro em Ação
+  
 ### Código: 
 
 

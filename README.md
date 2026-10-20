@@ -52,7 +52,7 @@ Muitas vezes, é em um clube de robótica, teatro ou jornalismo que o estudante 
 # Link do Protótipo do Canvas
 [Protótipo](https://canva.link/ixee6juxcn0uq9w)
 
-|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+#### 
 
 # Atualizações do Projeto:
 

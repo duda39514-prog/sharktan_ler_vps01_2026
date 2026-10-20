@@ -87,10 +87,16 @@ ________________________________________________________________________________
 
 ### Aviso!!: Eu e meu grupo decidimos mudar o estilo de dentro do site totalmente, só usamos o do canvas de base.
 
-## Banco de Dados:  
+## Banco de Dados: 
 
 - Desenvolvido por: Yasmin Drudi
 
 - Tecnologia: Banco de Dados
 
 - Projetos: Cérebro em Ação
+
+  ### Código:
+
+  * [dml](./dml)
+
+  *[ddl](./ddl)

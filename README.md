@@ -80,4 +80,4 @@ Muitas vezes, é em um clube de robótica, teatro ou jornalismo que o estudante 
 
 * Estilização CSS: Ajuste detalhado de posicionamentos, transições, botões e alinhamentos responsivos.
 
-* Aviso!!: Eu e meu grupo decidimos mudar o estilo do site totalmente.
+## Aviso!!: Eu e meu grupo decidimos mudar o estilo do site totalmente.

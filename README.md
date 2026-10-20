@@ -58,7 +58,7 @@ Muitas vezes, é em um clube de robótica, teatro ou jornalismo que o estudante 
 
 - Desenvolvido por: Maria Eduarda Betim Gomes de Moraes
 
-- Tecnologias: HTML5 • CSS3
+- Tecnologia: HTML5 • CSS3
 
 - Projetos: Site Cérebro em Ação
   

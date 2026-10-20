@@ -1,0 +1,120 @@
+USE cerebro_em_acao;
+
+INSERT INTO cadastro
+(nome, serie, email_educacional, rm, data_cadastro)
+VALUES
+('João da Silva', '2A', 'joao@escola.com', '10001', CURRENT_TIMESTAMP),
+('Maria Souza', '2B', 'maria@escola.com', '10002', CURRENT_TIMESTAMP),
+('Pedro Santos', '3A', 'pedro@escola.com', '10003', CURRENT_TIMESTAMP);
+
+INSERT INTO login
+(serie, email_educacional, rm)
+VALUES
+('2A', 'joao@escola.com', '10001'),
+('2B', 'maria@escola.com', '10002'),
+('3A', 'pedro@escola.com', '10003');
+
+INSERT INTO clubes
+(nome_clube, descricao, horario, local)
+VALUES
+(
+    'Clube de Robótica',
+    'Clube voltado para tecnologia, robótica e programação.',
+    'Segunda-feira 14:00',
+    'Laboratório de Informática'
+),
+(
+    'Clube de Ciências',
+    'Clube para experiências e atividades científicas.',
+    'Quarta-feira 15:00',
+    'Laboratório de Biologia'
+),
+(
+    'Clube de Esportes',
+    'Atividades esportivas e recreativas.',
+    'Sexta-feira 14:00',
+    'Quadra'
+);
+
+INSERT INTO inscricoes_clubes
+(id_clube, nome_aluno, rm)
+VALUES
+(1, 'João da Silva', '10001'),
+(2, 'Maria Souza', '10002'),
+(3, 'Pedro Santos', '10003');
+
+INSERT INTO salas
+(nome_sala, descricao)
+VALUES
+('Biblioteca', 'Espaço destinado à leitura e estudos.'),
+('Quadra', 'Espaço destinado às atividades esportivas.'),
+('Laboratório de Biologia', 'Laboratório destinado às atividades de Biologia.'),
+('Laboratório de Informática', 'Laboratório destinado às atividades de informática e tecnologia.');
+
+INSERT INTO agendamentos
+(id_sala, nome_aluno, rm, data_agendamento, horario_inicio, horario_fim)
+VALUES
+(1, 'João da Silva', '10001', '2026-10-15', '14:00:00', '15:00:00'),
+(2, 'Maria Souza', '10002', '2026-10-16', '15:00:00', '16:00:00'),
+(3, 'Pedro Santos', '10003', '2026-10-17', '13:00:00', '14:00:00');
+
+INSERT INTO sugestoes_clubes
+(nome_aluno, remetente, sugestao)
+VALUES
+(
+    'João da Silva',
+    'joao@escola.com',
+    'Sugiro a criação de um clube de programação.'
+),
+(
+    'Maria Souza',
+    'maria@escola.com',
+    'Sugiro um clube de fotografia.'
+),
+(
+    'Pedro Santos',
+    'pedro@escola.com',
+    'Sugiro um clube de jogos e estratégia.'
+);
+
+INSERT INTO inscricoes
+(nome_completo, rm, clube, email_educacional)
+VALUES
+(
+   
+    'João da Silva',
+    '10001',
+    'Clube de Robótica',
+    'joao@escola.com'
+),
+(
+    'Maria Souza',
+    '10002',
+    'Clube de Ciências',
+    'maria@escola.com'
+),
+(
+    'Pedro Santos',
+    '10003',
+    'Clube de Esportes',
+    'pedro@escola.com'
+);
+
+INSERT INTO sugestoes_feiras
+(nome_aluno, remetente, sugestao)
+VALUES
+(
+    'João da Silva',
+    'joao@escola.com',
+    'Sugiro uma Feira de Ciências e Tecnologia.'
+),
+(
+    'Maria Souza',
+    'maria@escola.com',
+    'Sugiro uma Feira Cultural.'
+),
+(
+    'Pedro Santos',
+    'pedro@escola.com',
+    'Sugiro uma Feira de Esportes.'
+);

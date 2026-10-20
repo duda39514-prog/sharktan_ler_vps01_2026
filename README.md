@@ -117,5 +117,5 @@ ________________________________________________________________________________
 _______________________________________________________________________________________________________________________________________________________________
 
 # Front end 2:
-## Aviso: Aqui a Ana klara fez o login e o cadastro, só uma parte do site e não está atualizada porque nós mudamos o estilo do site.
+### Aviso: Aqui a Ana klara fez o login e o cadastro, só uma parte do site e não está atualizada porque nós mudamos o estilo do site.
 

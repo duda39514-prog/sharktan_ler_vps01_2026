@@ -55,7 +55,7 @@ Muitas vezes, é em um clube de robótica, teatro ou jornalismo que o estudante 
 # Atualizações do Projeto:
 
 ## Site: 
-* Quem fez: Maria Eduarda Betim Gomes de Moraes
+### Quem fez: Maria Eduarda Betim Gomes de Moraes
 
 * O que fez: Site em Html e css
 

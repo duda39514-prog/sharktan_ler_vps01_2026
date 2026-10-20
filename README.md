@@ -95,37 +95,6 @@ Muitas vezes, é em um clube de robótica, teatro ou jornalismo que o estudante 
             </ul>
         </nav>
     </header>
-<body>
-    <div class="container">
-        <div class="quadrado quadrado1" style="font-family:'Times New Roman', Times, serif;font-size: 20px;">Pensamento Crítico</div>
-    <div class="quadrado quadrado2" style="font-family:'Times New Roman', Times, serif;font-size: 25px;">Socialização</div>
-    <img src="jovem.png" class="imagem">
-    <div class="arrumar">
-        <p class="bonitinho" style="font-family:'Times New Roman', Times, serif;">Projeto Cérebro em Ação</p>
-    <p style="font-size: 60px;font-family:'Impact', Courier, monospace;">O conhecimento</p>
-    <p style="font-size: 60px;font-family:'Century Gothic', Courier, monospace;color: rgb(159, 16, 45);">não deve ter limites,</p>
-    <p style="font-size: 60px;font-family:'Impact', Courier, monospace;">mas ser acessível</p>
-    <p style="font-size: 60px;font-family:'Century Gothic', Courier, monospace;color: rgb(159, 16, 45);">a todos.</p>
-    <p class="bonitinho2" style="font-family:'Times New Roman', Times, serif;">O objetivo do Cérebro em ação é propocionar aos 
-alunos mais clubes a fim de que</p> 
-<p class="bonitinho2" style="font-family:'Times New Roman', Times, serif;">eles possam se desenvolver 
-sem restrições.</p>
-<p class="bonitinho2" style="font-family:'Times New Roman', Times, serif;">Nosso site esta aqui para ajudar na organização e funcionamento.</p>
-<p class="bonitinho3" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 36px;color: aliceblue;">✹</p>
-<div class="bonitinho">
-    <h2>Membros</h2>
-    <img src="foto1.png" class="perfil">
-    <img src="foto2.png" class="perfil">
-    <img src="foto3.png" class="perfil">
-    <img src="foto4.png" class="perfil">
-</div>
-</div>
-    </div>
-    <section>
-        <img src="image.png" width="300px">
-        <p class="">Clubes disponíveis</p>
-    </section>
-</html>
 ````
 
 # CSS
@@ -257,67 +226,5 @@ nav ul li a:hover {
     border: 2px solid #8e590b;
     border-radius: 40px;
     pointer-events: none;
-}
-
-
-.quadrado1 {
-      display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color:#b95922 ;
-    top: 250px;
-     width: 200px;  
-    height: 80px; 
-    border: 2px solid #d8cbb8;
-    border-radius: 40px;
-    left: 30px;
-    z-index: 1;
-}
-
-.quadrado2 {
-      display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color:#b84c0e ;
-    top: 500px;
-    width: 200px;  
-    height: 80px; 
-    left: 455px;
-    z-index: 1;
-}
-
-.bonitinho2 {
-     line-height: 0;
-    letter-spacing: 0px;
-}
-
-.bonitinho3{
-      background-color: rgb(161, 56, 56);;
-     line-height: 0.7;
-     width: 100px;
-     height: 50px;
-    letter-spacing: 0px;
-       display: inline-block;
-    border: 2px solid #c50c0c;
-    border-radius: 30px;
-    padding: 10px 20px;
-    font-size: 12px;
-    color: #333;
-}
-
-.perfil{
-    width: 40px;
-    border-radius: 10px;
-}
-
-section{
-    display: flex;
-    margin: 80px;
-  margin-top: -5px; 
-    padding: 40px;   
-    background-color: #b84c0e;
-    border-radius: 25px;
 }
 ````

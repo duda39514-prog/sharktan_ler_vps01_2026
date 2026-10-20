@@ -74,10 +74,13 @@ Muitas vezes, é em um clube de robótica, teatro ou jornalismo que o estudante 
 
 ## O que foi feito:
 
-* Design e Interface: Criação de um layout com estilo único e bonito, além de usar paleta de cores que nós escolhemos e utilizamos no site no canvas.
+* #### Design e Interface:
+  Criação de um layout com estilo único e bonito, além de usar paleta de cores que nós escolhemos e utilizamos no site no canvas.
 
-* Estruturação: Organização de todas as secções, menus de navegação e cabeçalho.
+* #### Estruturação:
+  Organização de todas as secções, menus de navegação e cabeçalho.
 
-* Estilização CSS: Ajuste detalhado de posicionamentos, transições, botões e alinhamentos responsivos.
+* #### Estilização CSS:
+   Ajuste detalhado de posicionamentos, transições, botões e alinhamentos responsivos.
 
-## Aviso!!: Eu e meu grupo decidimos mudar o estilo de dentro do site totalmente, só usamos o do canvas de base.
+### Aviso!!: Eu e meu grupo decidimos mudar o estilo de dentro do site totalmente, só usamos o do canvas de base.

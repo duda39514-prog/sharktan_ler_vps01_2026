@@ -155,6 +155,29 @@ nav ul li a:hover {
     z-index: 1;
 }
 
+.quadrado4 {
+     top: 130px;
+    margin: 100px;
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    border: 2px solid #8e590b;
+    border-radius: 40px;
+    pointer-events: none;
+}
+
+.quadrado5 {
+    left: 30px;
+     top: 90px;
+    margin: 400px;
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    border: 2px solid #8e590b;
+    border-radius: 40px;
+    pointer-events: none;
+}
+
 .bonitinho2 {
      line-height: 0;
     letter-spacing: 0px;
@@ -179,11 +202,130 @@ nav ul li a:hover {
     border-radius: 10px;
 }
 
-section{
+section {
+    background-image: url('fundo2.png');
+    background-size: 100%;
+    gap: 30px;
     display: flex;
-    margin: 80px;
-  margin-top: -5px; 
+    align-items: center;
+    margin: 100px;
+    margin-top: -5px; 
     padding: 40px;   
     background-color: #b84c0e;
     border-radius: 25px;
 }
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin-left: 20px;
+    margin-top: -20px;    
+    line-height: 1.2;  
+    letter-spacing: -1px;
+}
+
+.linha-vertical {
+     margin-left: 70px;
+    width: 1px; 
+    height: 180px;
+    background-color: antiquewhite; 
+}
+
+.card-estilo {
+margin-top: -10px;
+    margin-left: 40px;  
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(234, 225, 211);
+    border: 1px solid rgba(0, 0, 0, 0.15); 
+    border-radius: 20px;
+    padding: 15px;
+    width: 320px;
+    box-sizing: border-box;
+}
+
+.conteudo-principal {
+    display: flex;
+    align-items: flex-start; 
+    gap: 20px;
+}
+
+.circulo-icone {
+    width: 55px;
+    height: 55px;
+    background-color: #b85c37; 
+    color: #ffffff; 
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    flex-shrink: 0;
+}
+
+
+.bloco-texto h3 {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #2c2a1d;
+    letter-spacing: 0.5px;
+}
+
+.bloco-texto p {
+    margin: 0;
+    font-size: 13px;
+    color: #555245;
+    line-height: 1.4;
+}
+
+.botao-seta {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #b85c37;
+    color: #b85c37;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.botao-seta:hover {
+    background-color: #b85c37;
+    color: #ffffff;
+}
+
+.sect2{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: flex-start;
+}
+
+.sect3 {
+    background-image: url('fundo8.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-color: #2c2a1d;
+    margin: 80px;
+    padding: 40px;
+    border-radius: 30px;
+    min-height: 350px;
+    box-sizing: border-box;
+    gap: 20px;
+}
+
+.graficos {
+    display: flex;
+    gap: 15px;
+}
+
+

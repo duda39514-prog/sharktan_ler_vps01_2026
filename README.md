@@ -134,8 +134,8 @@ ________________________________________________________________________________
 
   ## Alguns prints do site em andamento:
 
-![imagem](./imagem.png)
-![imagem](./imagem10.png)
+![imagem](./login.png)
+![imagem](./cadastro.png)
 
 ## O que foi feito:
 

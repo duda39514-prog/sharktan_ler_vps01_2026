@@ -72,6 +72,8 @@ ________________________________________________________________________________
 ## Alguns prints do site em andamento:
 
 ![imagem](./imagem.png)
+![imagem](./imagem10.png)
+![imagem](./imagem11.png)
 (A imagem da moça foi feita de IA!!)
 
 ## O que foi feito:

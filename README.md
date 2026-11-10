@@ -60,7 +60,7 @@ ________________________________________________________________________________
 
 - Desenvolvido por: Maria Eduarda Betim Gomes de Moraes
 
-- Tecnologia: HTML5 • CSS3
+- Tecnologia: HTML • CSS
 
 - Projetos: Cérebro em Ação
   
@@ -121,3 +121,23 @@ ________________________________________________________________________________
 # Front end 2:
 ### Aviso: Aqui a Ana klara fez o login e o cadastro, só uma parte do site e não está atualizada porque nós mudamos o estilo do site.
 
+- Desenvolvido por: Ana Klara Godoy
+  
+- Tecnologia: HTML • CSS
+
+- Projetos: Cérebro em Ação
+  
+### Código: 
+* [index.html](./index.html)
+  
+* [index.css](./index.css)
+
+  ## Alguns prints do site em andamento:
+
+![imagem](./imagem.png)
+![imagem](./imagem10.png)
+
+## O que foi feito:
+
+* Login e Cadastro do site.
+________________________________________________________________________________________________________________________________

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento · Cérebro em Ação</title>
+    <link rel="stylesheet" href="agendamento.css">
+</head>
+
+<body>
+
+<header>
+        <h1 style="font-size: 40px;color:antiquewhite;">🟅 Cérebro em Ação 🟅</h1>
+        <br>
+        <nav>
+            <ul>
+                  <p style="color: antiquewhite;">🟅</p>
+                <div class="opcoes">
+                <li style="font-size: 18px;"><a href="">Login</a></li>
+                </div>
+                 <div class="opcoes">
+                <li style="font-size: 18px;"><a href="index.html">Menu</a></li>
+                </div>
+                 <div class="opcoes">
+                <li style="font-size: 18px;"><a href="#sobre">Sobre</a></li>
+                </div>
+                <div class="opcoes">
+                <li style="font-size: 18px;"><a href="#contato">Contato</a></li>
+                </div>
+                <div class="opcoes">
+                 <li style="font-size: 18px;"><a href="#clubes">Clubes</a></li>
+                 </div>
+                   <p style="color: antiquewhite;">🟅</p>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 class="titulo-pagina">Escolha seu horário</h2>
+
+        <section class="sect2" id="clubes">
+            <label class="card-estilo">
+                <h3>Segunda</h3>
+                <input type="checkbox" class="dia" value="Segunda">
+            </label>
+
+            <label class="card-estilo">
+                <h3>Terça</h3>
+                <input type="checkbox" class="dia" value="Terça">
+            </label>
+
+            <label class="card-estilo">
+                <h3>Quarta</h3>
+                <input type="checkbox" class="dia" value="Quarta">
+            </label>
+
+            <label class="card-estilo">
+                <h3>Quinta</h3>
+                <input type="checkbox" class="dia" value="Quinta">
+            </label>
+
+            <label class="card-estilo">
+                <h3>Sexta</h3>
+                <input type="checkbox" class="dia" value="Sexta">
+            </label>
+        </section>
+
+        <div class="acoes">
+            <button id="agendar" class="agendar">Agendar</button>
+        </div>
+
+        <div id="areaHorarios" class="area-horarios"></div>
+
+        <div class="acoes">
+            <button id="confirmar" class="agendar" hidden>Confirmar agendamento</button>
+        </div>
+
+        <p id="mensagem" class="mensagem"></p>
+
+        <section class="lista">
+            <h2>Agendamentos realizados</h2>
+            <div id="listaAgendamentos"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,167 @@
+const API_URL = "http://localhost:3000";
+
+const btnAgendar = document.getElementById("agendar");
+const btnConfirmar = document.getElementById("confirmar");
+const areaHorarios = document.getElementById("areaHorarios");
+const mensagem = document.getElementById("mensagem");
+
+console.log("script carregado", { btnAgendar, btnConfirmar, areaHorarios, mensagem });
+
+btnAgendar.addEventListener("click", () => {
+    const diasSelecionados = document.querySelectorAll(".dia:checked");
+
+    if (diasSelecionados.length === 0) {
+        alert("Escolha pelo menos um dia!");
+        return;
+    }
+
+    areaHorarios.innerHTML = "";
+
+    diasSelecionados.forEach(dia => {
+        const bloco = document.createElement("div");
+        bloco.classList.add("horario-dia");
+
+        const titulo = document.createElement("h3");
+        titulo.textContent = dia.value;
+
+        const texto = document.createElement("p");
+        texto.textContent = "Escolha um horário:";
+
+        const campoHorario = document.createElement("input");
+        campoHorario.type = "time";
+        campoHorario.classList.add("horario");
+        campoHorario.dataset.dia = dia.value;
+
+        bloco.append(titulo, texto, campoHorario);
+        areaHorarios.appendChild(bloco);
+    });
+
+    btnConfirmar.hidden = false;
+    mensagem.textContent = "";
+});
+
+btnConfirmar.addEventListener("click", async () => {
+    console.log("clicou em confirmar");
+
+    const campos = document.querySelectorAll(".horario");
+    console.log("campos:", campos.length);
+
+    if (campos.length === 0) {
+        alert("Clique em Agendar primeiro!");
+        return;
+    }
+
+    const horarios = [];
+
+    for (const campo of campos) {
+        if (campo.value === "") {
+            alert("Escolha um horário para cada dia!");
+            return;
+        }
+
+        horarios.push({
+            dia_semana: campo.dataset.dia,
+            horario: campo.value
+        });
+    }
+
+    try {
+        const resposta = await fetch(API_URL + "/agendar", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ horarios })
+        });
+
+        const resultado = await resposta.text();
+        console.log("status:", resposta.status, resultado);
+
+        if (resposta.ok) {
+            mensagem.textContent = resultado;
+            mensagem.style.color = "green";
+
+            areaHorarios.innerHTML = "";
+            btnConfirmar.hidden = true;
+
+            document.querySelectorAll(".dia").forEach(dia => {
+                dia.checked = false;
+            });
+
+            carregarAgendamentos();
+        } else {
+            alert(resultado);
+        }
+
+    } catch (erro) {
+        console.error("Erro:", erro);
+        alert("Erro ao conectar com o servidor!");
+    }
+});
+
+async function carregarAgendamentos() {
+    const lista = document.getElementById("listaAgendamentos");
+
+    try {
+        const resposta = await fetch(API_URL + "/listar");
+        const agendamentos = await resposta.json();
+
+        lista.innerHTML = "";
+
+        if (agendamentos.length === 0) {
+            const p = document.createElement("p");
+            p.classList.add("vazio");
+            p.textContent = "Nenhum agendamento ainda.";
+            lista.appendChild(p);
+            return;
+        }
+
+        agendamentos.forEach(item => {
+            const linha = document.createElement("div");
+            linha.classList.add("item-agendamento");
+
+            const texto = document.createElement("span");
+            texto.textContent = `${item.dia_semana} - ${item.horario}`;
+
+            const btnApagar = document.createElement("button");
+            btnApagar.textContent = "Apagar";
+            btnApagar.classList.add("btn-apagar");
+
+            btnApagar.addEventListener("click", () => {
+                apagarAgendamento(item.id);
+            });
+
+            linha.append(texto, btnApagar);
+            lista.appendChild(linha);
+        });
+
+    } catch (erro) {
+        console.error("Erro ao carregar agendamentos:", erro);
+    }
+}
+
+async function apagarAgendamento(id) {
+
+    if (!confirm("Apagar este agendamento?")) {
+        return;
+    }
+
+    try {
+        const resposta = await fetch(`${API_URL}/agendar/${id}`, {
+            method: "DELETE"
+        });
+
+        const resultado = await resposta.text();
+
+        if (resposta.ok) {
+            carregarAgendamentos();
+        } else {
+            alert(resultado);
+        }
+
+    } catch (erro) {
+        console.error("Erro ao apagar:", erro);
+        alert("Erro ao conectar com o servidor!");
+    }
+}
+
+
+carregarAgendamentos();

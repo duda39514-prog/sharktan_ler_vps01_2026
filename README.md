@@ -150,4 +150,7 @@ ________________________________________________________________________________
 
 - Projetos: Cérebro em Ação
 
-## Código do script do agendamento: 
+## Código do script:
+
+- [script do agendamento](./script.js-agendamento)
+É o script para as pessoas poderem agendar o horário de algum lugar.(Ainda não pronto porque temos que colocar os locais)

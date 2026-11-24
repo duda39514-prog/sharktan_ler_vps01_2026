@@ -172,3 +172,4 @@ ________________________________________________________________________________
   
 - Projetos: Cérebro em Ação
 
+![fluxograma DML](./fluxogramadml.drawio.png)

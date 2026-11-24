@@ -173,3 +173,4 @@ ________________________________________________________________________________
 - Projetos: Cérebro em Ação
 
 ![fluxograma DML](./fluxogramadml.drawio.png)
+![fluxograma SQL](./sql_cerebro.drawio.png)

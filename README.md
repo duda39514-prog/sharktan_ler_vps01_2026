@@ -163,3 +163,12 @@ ________________________________________________________________________________
 - [script do agendamento](./script.js-agendamento)
   
 É o script para as pessoas poderem agendar o horário de algum lugar.(Ainda não pronto porque temos que colocar os locais)
+
+# Fluxogramas 
+
+- Desenvolvido por: Mirella
+  
+- Tecnologia: Draw.io
+  
+- Projetos: Cérebro em Ação
+
